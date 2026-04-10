@@ -1,0 +1,22 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Database + persistente data
+klippr.db
+klippr.db-journal
+klippr.db-wal
+klippr.db-shm
+screenshots/
+data/
+
+# Oude JSON files (niet meer gebruikt na migratie, maar laten staan voor backup)
+# bookings.json, customers.json, reminders-sent.json NIET committen
+bookings.json
+customers.json
+reminders-sent.json
+
+# Screenshots op root level (oude locatie)
+booking-*.png
